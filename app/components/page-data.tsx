@@ -12,13 +12,13 @@ export function PageData({ data }: { data: any }) {
           <div className="info">
             <span>Search Result:</span>
             <span className="region">
-              <strong>{data.post.title}</strong>
+              <strong>{data.title}</strong>
             </span>
           </div>
           <div className="info">
             <span>Parents Together Site</span>
-            <div>{data.post.excerpt}</div>
-            <div>{data.post.content}</div>
+            <div>{data.excerpt}</div>
+            <div>{data.content}</div>
           </div>
         </div>
       </main>
