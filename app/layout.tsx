@@ -2,18 +2,17 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "WeatherGPT - ChatGPT Plugin to get the weather of any given location",
+  title: "ptGPT - ChatGPT Plugin for Parenting Advice",
   description:
-    "WeatherGPT is a ChatGPT Plugin to get the weather of any given location. Built with Next.js and served from Vercel's Edge Network.",
+    "ptGPT is a ChatGPT Plugin to get parenting advice from the Parent's Together website. Developed with Next.js and hosted on Vercel's Edge Network.",
   twitter: {
     card: "summary_large_image",
-    title:
-      "WeatherGPT - ChatGPT Plugin to get the weather of any given location",
+    title: "ptGPT - ChatGPT Plugin for Parenting Advice",
     description:
-      "WeatherGPT is a ChatGPT Plugin to get the weather of any given location. Built with Next.js and served from Vercel's Edge Network.",
-    creator: "@steventey",
+      "ptGPT is a ChatGPT Plugin to get parenting advice from the Parent's Together website. Developed with Next.js and hosted on Vercel's Edge Network.",
+    creator: "@roskideluge",
   },
-  metadataBase: new URL("https://weathergpt.vercel.app"),
+  metadataBase: new URL("https://ptgpt.vercel.app"),
   themeColor: "#FFF",
 };
 
