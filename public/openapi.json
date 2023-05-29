@@ -4,6 +4,11 @@
     "title": "Parents Together API",
     "version": "1.0.0"
   },
+  "servers": [
+    {
+      "url": "https://ptgpt.vercel.app"
+    }
+  ],
   "paths": {
     "/api/pt": {
       "get": {
